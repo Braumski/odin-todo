@@ -17,11 +17,11 @@
         + Create
       </li>
       <li id="lists">
-        <h1><span>Lists</span> <span>^</span></h1>
+        <h1 id="lists-dropdown"><span>Lists</span> <span>^</span></h1>
         <ul id="todo-list-list">
           <li><span>Work</span></li>
           <li><span>After work</span></li>
-          <li id="create-new-list"><span>Create New List</span><span>+</span></li>
+          <li id="create-new-list"><span>+</span><span>Create New List</span></li>
 
         </ul>
       </li>
@@ -29,8 +29,15 @@
   </nav>
   
   <main id="current-list-container">
-    <div id="todo">
-      <h1>To-do today</h1>
+    <div class="list">
+      <div id="todo">To-do today</div>
+      <div id="add-task">Add a task</div>
+      <div id="tasks">
+        <div id="tasks-container">
+          <div id="no-tasks">No tasks yet</div>
+          <div id="no-tasks-info">Add your to-dos and keep track of them</div>
+        </div>
+      </div>
     </div>
   </main>
 </body>
