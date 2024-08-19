@@ -17,11 +17,15 @@
         + Create
       </li>
       <li id="lists">
-        <h1 id="lists-dropdown"><span>Lists</span> <span>^</span></h1>
+        <h1 id="lists-dropdown"><span>Lists</span> <img id="lists-dropdown-arrow"src="./assets/caret-down-solid.svg"></h1>
         <ul id="todo-list-list">
-          <li><span>Work</span></li>
-          <li><span>After work</span></li>
-          <li id="create-new-list"><span>+</span><span>Create New List</span></li>
+          <li>
+           <input type="checkbox">
+            <span>Work</span>
+          </li>
+          <li><input type="checkbox"><span>After work</span>
+          </li>
+          <li id="create-new-list"><span id="plus">+</span><span>Create New List</span></li>
 
         </ul>
       </li>
@@ -34,8 +38,8 @@
       <div id="add-task">Add a task</div>
       <div id="tasks">
         <div id="tasks-container">
-          <div id="no-tasks">No tasks yet</div>
-          <div id="no-tasks-info">Add your to-dos and keep track of them</div>
+          <div id="no-tasks">No lists yet</div>
+          <div id="no-tasks-info">Select any list to see your tasks</div>
         </div>
       </div>
     </div>

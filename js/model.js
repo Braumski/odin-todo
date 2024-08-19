@@ -1,5 +1,3 @@
-
-
-function newTodo(){
-
+export default function model(){
 }
+
